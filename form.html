@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+            margin: 100px;
+            text-transform: capitalize;
+            font-size: large;
+        }
+        input {
+            padding: 5px;
+            margin: 2px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form{
+            text-align: center;
+            padding: 50px;
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h1>General Form</h1>
+    <form>
+       <fieldset>
+        <legend>FORM
+        </legend>   
+        <label for="i1">Enter your Name:</label>
+        <input type="text" id="i1" placeholder="Enter your name" required>
+        <br>
+        <br>
+        <label for="i2">Enter your Email:</label>
+        <input type="email" id="i2" placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="i3">Enter your Password:</label>
+        <input type="password" id="i3" placeholder="Enter your password">
+        <br>
+        <br>
+        <label for="i4">Enter date:</label>
+        <input type="date" id="i4">
+        <br>
+        <br>
+        <label for="i5">Enter date and time:</label>
+        <input type="datetime" id="i5" placeholder="Enter date and time">
+        <br>
+        <br>
+        <label for="i6">Enter date and time as local:</label>
+        <input type="datetime-local" id="i6">
+        <br>
+        <br>
+        <label for="i7">Upload image:</label>
+        <input type="file" id="i7">
+        <br>
+        <br>
+        <label for="i8">Enter color:</label>
+        <input type="color" id="i8">
+        <br>
+        <br>
+        <label for="i9">Image:</label>
+        <br>
+        <input type="image" src="radha krishn ji 2.jpg" height="100px" width="100px" id="i9">
+        <br>
+        <br>
+        <label for="i10">Enter month:</label>
+        <input type="month" id="i10">
+        <br>
+        <br>
+        <label for="i11">Enter number:</label>
+        <input type="number" id="i11" placeholder="Enter number" min="0" max="20000000000">
+        <br>
+        <br>
+        <label for="i12">Enter range:</label>
+        <input type="range" id="i12" min="0" max="10">
+        <br>
+        <br>
+        <label for="i13">Search content:</label>
+        <input type="search" id="i13" placeholder="Search content">
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit">
+        <br>
+        <br>
+        <label for="i14">Telephone</label>
+        <input type="tel" id="i14" pattern="10" placeholder="Enter phone number">
+        <br>
+        <br>
+        <label for="i15">URL:</label>
+        <input type="url" id="i15"placeholder="Enter url">
+        <br>
+        <br>
+        <label for="selector">Choose your state:</label>
+        <select name="states" id="selector" multiple>
+            <option value="Delhi"></option>
+            <option value="Maharastra">Maharastra</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Uttar pradesh">Uttar pradesh</option>
+            <option value="Uttrakhand">Uttrakhand</option>
+            <option value="Goa">Goa</option>
+            <option value="Himachal pradesh">Himachal pradesh</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Kerala">Kerala</option>
+        </select>
+     </fieldset>
+    </form>
+</body>
+</html>
