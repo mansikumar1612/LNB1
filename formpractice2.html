@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        form {
+            background-color: bisque;
+            padding: 50px;
+        }
+        .N {
+            height:20px;
+            width: 80px;
+            margin: 3px;
+        }
+        .c1 {
+            height: 20px;
+            width: 140px;
+        }
+        .c2 {
+            height: 20px;
+            width: 150px;
+        }
+        .rb {
+            height: 20px;
+            width: 30px;
+        }
+        .b1 {
+            background-color: rgba(116, 181, 238, 0.762);
+            height: 30px;
+            width: 100px;
+            text-transform: uppercase;
+            border: 2px solid black;
+            border-radius: 5px;
+         
+        }
+    </style>
+</head>
+<body>
+    <h1>General Admission Registration</h1>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="First Name" class="N">
+      <input type="text" id="name" placeholder="Last Name" class="N">
+      <br>
+      <br>
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="sample@example.com" class="c1">
+      <br>
+      <br>
+      <label>Gender</label>
+      <input type="radio" id="rb1" name="Gender" value="Male" class="rb">
+      <label for="rb1">Male</label>
+      <input type="radio" id="rb1" name="Gender" value="Female" class="rb">
+      <label for="rb1">Female</label>
+      <br>
+      <br>
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" class="c2">
+      <br>
+      <br>
+      <label for="contact">Emergency Contact</label>
+      <br>
+      <br>
+      <input type="tel" id="contact" class="c2">
+      <br>
+      <br>
+      <label>Do you require parking?</label>
+      <br>
+      <br>
+      <input type="radio" id="rb1" name="bool" value="Yes" class="rb">
+      <label for="rb1">Yes</label>
+      <input type="radio" id="rb1" name="bool" value="No" class="rb">
+      <label for="rb1">No</label>
+      <br>
+      <br>
+      <label>What is your room preference?</label>
+      <br>
+      <br>
+      <input type="radio" id="rb1" name="rooms" value="Single Room" class="rb">
+      <label for="rb1">Single Room</label>
+      <br>
+      <input type="radio" id="rb1" name="rooms" value="Shared Room" class="rb">
+      <label for="rb1">Shared Room</label>
+      <br>
+      <input type="radio" id="rb1" name="rooms" value="No Room Needed" class="rb">
+      <label for="rb1">No Room Needed</label>
+      <br>
+      <br>
+      <label>Do You Have Dietary Restrictions?</label>
+      <br>
+      <br>
+      <input type="radio" id="rb1" name="Food" value="None" class="rb">
+      <label for="rb1">None</label>
+      <br>
+      <input type="radio" id="rb1" name="Food" value="Vegetarion" class="rb">
+      <label for="rb1">Vegetarion</label>
+      <br>
+      <input type="radio" id="rb1" name="Food" value="Glutton Allergy" class="rb">
+      <label for="rb1">Glutton Allergy</label>
+      <br>
+      <input type="radio" id="rb1" name="Food" value="Lactose Allergy" class="rb">
+      <label for="rb1">Lactose Allergy</label>
+      <br>
+      <input type="radio" id="rb1" name="Food" value="Nut Allergy" class="rb">
+      <label for="rb1">Nut Allergy</label>
+      <br>
+      <input type="radio" id="rb1" name="Food" value="Shellfish Allergy" class="rb">
+      <label for="rb1">Shellfish Allergy</label>
+      <br>
+      <br>
+      <label>What activities will you attend?</label>
+      <br>
+      <br>
+      <input type="radio" id="rb1" name="activity" value="Award Gala Dinner" class="rb">
+      <label for="rb1">Award Gala Dinner</label>
+      <br>
+      <input type="radio" id="rb1" name="activity" value="Luncheon" class="rb">
+      <label for="rb1">Luncheon</label>
+      <br>
+      <input type="radio" id="rb1" name="activity" value="Town Hall" class="rb">
+      <label for="rb1">Town Hall</label>
+      <br>
+      <br>
+      <label>Do you want to see the list of other attendees and 
+        their profiles on the official event app?</label>
+      <br>
+      <br>
+      <input type="radio" id="rb1" name="bool" value="Yes" class="rb">
+      <label for="rb1">Yes</label>
+      <br>
+      <input type="radio" id="rb1" name="bool" value="No" class="rb">
+      <label for="rb1">No</label>
+      <br>
+      <br>
+      <input type="submit" name="Submit" value="Click" id="Button" class="b1">
+      <input type="submit" name="Submit" value="Reset" id="Button" class="b1">
+    </form>
+</body>
+</html>
